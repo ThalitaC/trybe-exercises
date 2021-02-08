@@ -3,3 +3,6 @@
 - Git
 - JavaScript
 - Jest
+- HTML
+- CSS
+
