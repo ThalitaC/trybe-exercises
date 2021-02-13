@@ -1,5 +1,11 @@
-ol li {
+ol {
     background-color: yellow;
+}
+.par {
+    color: green;
+}
+.primo {
+    text-transform: uppercase;
 }
 /*
 
