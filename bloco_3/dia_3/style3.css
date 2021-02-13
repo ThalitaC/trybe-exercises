@@ -4,3 +4,6 @@
 li:hover {
     background-color: darkkhaki;
 }
+li:active {
+    font-family: 'Franklin Gothic Medium', sans-serif;
+}
