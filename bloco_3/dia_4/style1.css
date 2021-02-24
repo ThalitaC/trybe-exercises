@@ -1,0 +1,23 @@
+
+#subtitle {
+    font-style: italic;
+}
+
+article {
+    float: left;
+    width: 50%;
+}
+
+img {
+    width: 50%;
+}
+
+aside {
+    padding-top: ;
+}
+
+footer {
+    clear: both;
+    position: relative;
+    text-align: center;
+}
