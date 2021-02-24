@@ -6,5 +6,9 @@ const patientInfo = {
 };
 const patientEmail = 'ana@email.com';
 
-var base = "5";
-var altura = "8";
+var base = 5;
+var altura = 8;
+var area = (base * altura);
+var perimetro = (base + base + altura + altura);
+
+console.log(perimetro);
