@@ -117,14 +117,28 @@
 // } 
 // console.log(par);
 
-//exercicio 9
-let num1 = 2;
-let num2 = 4;
-let num3 = 6;
+// //exercicio 9
+// let num1 = 2;
+// let num2 = 4;
+// let num3 = 6;
 
-let impar = false
+// let impar = false
 
-if (num1 % 2 != 0 || num2 % 2 != 0 || num3 % 2 != 0){
-  impar = true
-} 
-console.log(impar);
+// if (num1 % 2 != 0 || num2 % 2 != 0 || num3 % 2 != 0){
+//   impar = true
+// } 
+// console.log(impar);
+
+//exercicio 10
+let custo = 1;
+let valorVenda = 2;
+
+let custoTotal = custo * 1.2
+
+let lucro = (valorVenda - custoTotal) * 1000;
+
+if (custo >= 0 & valorVenda >= 0) {
+  console.log("O lucro é de: R$" + lucro);
+} else {
+  console.log("Erro: os valores devem ser positivos")
+}
