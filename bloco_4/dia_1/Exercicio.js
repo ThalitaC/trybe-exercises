@@ -42,20 +42,47 @@
 //   console.log ("zero")
 // }
 
-//exercicio 5
-let angle1 = -50;
-let angle2 = 50;
-let angle3 = 50;
+// //exercicio 5
+// let angle1 = -50;
+// let angle2 = 50;
+// let angle3 = 50;
 
-let positiveAngle = angle1 > 0 && angle2 > 0 && angle3 > 0;
+// let positiveAngle = angle1 > 0 && angle2 > 0 && angle3 > 0;
 
-if (positiveAngle){
-  if ((angle1 + angle2 + angle3) === 180) {
-    console.log(true);
-  } else if ((angle1 + angle2 + angle3) != 180) {
-    console.log(false)
-  }
-} else {
-  console.log("erro: todos os angulos precisam ser numeros positivos")
+// if (positiveAngle){
+//   if ((angle1 + angle2 + angle3) === 180) {
+//     console.log(true);
+//   } else if ((angle1 + angle2 + angle3) != 180) {
+//     console.log(false)
+//   }
+// } else {
+//   console.log("erro: todos os angulos precisam ser numeros positivos")
+// }
+
+//exercicio 6
+let chessPiece = "bispo";
+
+switch (chessPiece.toLowerCase()) {
+  case "rei":
+    console.log("Rei: Qualquer direção, uma casa por vez");
+    break;
+  case "dama":
+    console.log("Dama: Qualquer direção, quantas casas quiser, desde que estejam livres");
+    break;
+  case "torre":
+    console.log("Torre: Linha reta na vertical ou horizintal, quantas casas quiser");
+    break;
+case "bispo":
+    console.log("Bispo: Na diagonal, quantas casas quiser");
+    break;
+case "cavalo":
+    console.log("Cavalo: Em L");
+    break;
+case "peão":
+    console.log("Peão: Uma casa para a frente, no primeiro movimento pode andar duas");
+    break;
+default:
+    console.log("Erro: a peça informada não possui um nome válido");
+    break;
 }
 
