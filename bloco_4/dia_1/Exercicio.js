@@ -105,15 +105,26 @@
 //   console.log("F");
 // }
 
-//exercicio 8
-let num1 = 1;
-let num2 = 3;
-let num3 = 5;
+// //exercicio 8
+// let num1 = 1;
+// let num2 = 3;
+// let num3 = 5;
 
-let par = false
+// let par = false
 
-if (num1 % 2 === 0 || num2 % 2 === 0 || num3 % 2 === 0){
-  par = true
+// if (num1 % 2 === 0 || num2 % 2 === 0 || num3 % 2 === 0) {
+//   par = true
+// } 
+// console.log(par);
+
+//exercicio 9
+let num1 = 2;
+let num2 = 4;
+let num3 = 6;
+
+let impar = false
+
+if (num1 % 2 != 0 || num2 % 2 != 0 || num3 % 2 != 0){
+  impar = true
 } 
-console.log(par);
-
+console.log(impar);
