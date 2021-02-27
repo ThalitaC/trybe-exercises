@@ -86,22 +86,34 @@
 //     break;
 // }
 
-//exercicio 7
-let nota = 101;
+// //exercicio 7
+// let nota = 101;
 
-if (nota < 0 || nota > 100) {
-  console.log("O valor da nota precisa ser um inteiro entre 0 e 100");
-} else if (nota >= 90) {
-  console.log("A");
-} else if (nota >= 80){
-  console.log("B");
-} else if (nota >= 70){
-  console.log("C");
-} else if (nota >= 60){
-  console.log("D");
-} else if (nota >= 50){
-  console.log("E");
-} else if (nota >= 40){
-  console.log("F");
-}
+// if (nota < 0 || nota > 100) {
+//   console.log("O valor da nota precisa ser um inteiro entre 0 e 100");
+// } else if (nota >= 90) {
+//   console.log("A");
+// } else if (nota >= 80){
+//   console.log("B");
+// } else if (nota >= 70){
+//   console.log("C");
+// } else if (nota >= 60){
+//   console.log("D");
+// } else if (nota >= 50){
+//   console.log("E");
+// } else if (nota >= 40){
+//   console.log("F");
+// }
+
+//exercicio 8
+let num1 = 1;
+let num2 = 3;
+let num3 = 5;
+
+let par = false
+
+if (num1 % 2 === 0 || num2 % 2 === 0 || num3 % 2 === 0){
+  par = true
+} 
+console.log(par);
 
