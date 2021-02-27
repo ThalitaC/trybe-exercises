@@ -59,30 +59,49 @@
 //   console.log("erro: todos os angulos precisam ser numeros positivos")
 // }
 
-//exercicio 6
-let chessPiece = "bispo";
+// //exercicio 6
+// let chessPiece = "bispo";
 
-switch (chessPiece.toLowerCase()) {
-  case "rei":
-    console.log("Rei: Qualquer direção, uma casa por vez");
-    break;
-  case "dama":
-    console.log("Dama: Qualquer direção, quantas casas quiser, desde que estejam livres");
-    break;
-  case "torre":
-    console.log("Torre: Linha reta na vertical ou horizintal, quantas casas quiser");
-    break;
-case "bispo":
-    console.log("Bispo: Na diagonal, quantas casas quiser");
-    break;
-case "cavalo":
-    console.log("Cavalo: Em L");
-    break;
-case "peão":
-    console.log("Peão: Uma casa para a frente, no primeiro movimento pode andar duas");
-    break;
-default:
-    console.log("Erro: a peça informada não possui um nome válido");
-    break;
+// switch (chessPiece.toLowerCase()) {
+//   case "rei":
+//     console.log("Rei: Qualquer direção, uma casa por vez");
+//     break;
+//   case "dama":
+//     console.log("Dama: Qualquer direção, quantas casas quiser, desde que estejam livres");
+//     break;
+//   case "torre":
+//     console.log("Torre: Linha reta na vertical ou horizintal, quantas casas quiser");
+//     break;
+// case "bispo":
+//     console.log("Bispo: Na diagonal, quantas casas quiser");
+//     break;
+// case "cavalo":
+//     console.log("Cavalo: Em L");
+//     break;
+// case "peão":
+//     console.log("Peão: Uma casa para a frente, no primeiro movimento pode andar duas");
+//     break;
+// default:
+//     console.log("Erro: a peça informada não possui um nome válido");
+//     break;
+// }
+
+//exercicio 7
+let nota = 101;
+
+if (nota < 0 || nota > 100) {
+  console.log("O valor da nota precisa ser um inteiro entre 0 e 100");
+} else if (nota >= 90) {
+  console.log("A");
+} else if (nota >= 80){
+  console.log("B");
+} else if (nota >= 70){
+  console.log("C");
+} else if (nota >= 60){
+  console.log("D");
+} else if (nota >= 50){
+  console.log("E");
+} else if (nota >= 40){
+  console.log("F");
 }
 
