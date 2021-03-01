@@ -12,3 +12,6 @@ if (media > 20){
 } else {
   console.log("Valor menor ou igual a 20")
 }
+
+
+
