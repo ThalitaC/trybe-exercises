@@ -9,5 +9,6 @@ let info = {
 // console.log(info.recorrente)
 
 for(let informacoes in info) {
-  console.log(informacoes);
+  // console.log(informacoes);
+  console.log(info[informacoes]);
 }
