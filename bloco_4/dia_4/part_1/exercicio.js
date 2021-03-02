@@ -5,10 +5,22 @@ let info = {
   recorrente: "Sim"
 };
 
+let info2 = {
+  personagem: "Tio Patinhas",
+  origem: "Christmas on Bear Mountain, Dell's Four Color Comics #178",
+  nota: "O último MacPatinhas",
+  recorrente: "Sim"
+};
+
+for(let informacoes in info) {  
+  if (info[informacoes] === info.recorrente && info[informacoes] === "Sim" && info2[informacoes] === "Sim") {
+    console.log("Ambos recorrentes")
+  } else {
+    console.log(info[informacoes] + " e " + info2[informacoes]);
+  }  
+}
+
+// console.log(informacoes);
 // console.log("Bem vinda, " + info.personagem);
 // console.log(info.recorrente)
 
-for(let informacoes in info) {
-  // console.log(informacoes);
-  console.log(info[informacoes]);
-}
