@@ -5,5 +5,9 @@ let info = {
   recorrente: "Sim"
 };
 
-console.log("Bem vinda, " + info.personagem);
-console.log(info.recorrente)
+// console.log("Bem vinda, " + info.personagem);
+// console.log(info.recorrente)
+
+for(let informacoes in info) {
+  console.log(informacoes);
+}
