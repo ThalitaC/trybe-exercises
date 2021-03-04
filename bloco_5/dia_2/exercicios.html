@@ -64,9 +64,14 @@
       document.body.appendChild(addH1);
 
       //Exercicio 2: Adicione a tag div com a classe main-content como filho da tag body
-      let addDiv = document.createElement('div');
-      addDiv.classname = 'main-content';
-      document.body.appendChild(addDiv);
+      let addMainDiv = document.createElement('div');
+      addMainDiv.classname = 'main-content';
+      document.body.appendChild(addMainDiv);
+
+      //Exercicio 3: Adicione a tag div com a classe center-content como filho da tag div criada no passo 2
+      let addCenterDiv = document.createElement('div');
+      addCenterDiv.className = 'center-content';
+      addMainDiv.appendChild(addCenterDiv);
     </script>
   </body>
 </html>
