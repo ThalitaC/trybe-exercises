@@ -115,6 +115,12 @@
     //Exercicio 10: Adicione a classe title na tag h1 criada
     let title = document.getElementsByTagName('h1')[0];
     title.className = 'title';
+
+    //Exercicio 11: Adicione a classe description nas 3 tags h3 criadas
+    let addH3Class = document.getElementsByTagName('h3');
+      for (let index = 0; index < 3; index += 1) {
+        addH3Class[index].className = 'description';
+      }
     </script>
   </body>
 </html>
