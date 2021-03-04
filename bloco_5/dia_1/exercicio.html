@@ -85,6 +85,15 @@
       upper.innerHTML = upper.innerHTML.toUpperCase();
     }
     upperCase();
+
+    //exercicio 6
+    function pContentExibtion() {
+      let content = document.getElementsByTagName('p');
+      for (let index = 0; index < content.length; index += 1) {
+        console.log(content[index].innerHTML);
+      }
+    }
+    pContentExibtion();
     </script>
   </body>
 </html>
