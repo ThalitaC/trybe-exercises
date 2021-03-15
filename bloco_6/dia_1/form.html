@@ -13,26 +13,26 @@
   </header>
   <div>
     <form id="form-cv" action="" method="post">
-      <fieldset>
+      <fieldset id="basic-info">
         <div class="content">
           <label for="name">Nome: </label>
-          <input type="text" name="name" id="name" required>
+          <input type="text" name="name" id="name" maxlength="40" required>
         </div>
         <div class="content">
           <label for="email">E-mail: </label>
-          <input type="text" name="email" id="email" required>
+          <input type="text" name="email" id="email" maxlength="50" required>
         </div>
         <div class="content">
           <label for="cpf">CPF: </label>
-          <input type="text" name="cpf" id="cpf" required>
+          <input type="text" name="cpf" id="cpf" maxlength="11" required>
         </div>
         <div class="content">
           <label for="adress">Endereço: </label>
-          <input type="text" name="adress" id="adress" required>
+          <input type="text" name="adress" id="adress" maxlength="200" required>
         </div>
         <div class="content">
           <label for="city">Cidade: </label>
-          <input type="text" name="city" id="city" required>
+          <input type="text" name="city" id="city" maxlength="28" required>
         </div>
         <div class="content">
           <label for="state">Estado: </label>
@@ -45,6 +45,9 @@
             <input type="radio" name="kind" id="apartment" value="apartment" required><p>Apartamento</p>
           </div>
         </div>
+      </fieldset>
+      <fieldset id="last-job">
+
       </fieldset>
     </form>
   </div>

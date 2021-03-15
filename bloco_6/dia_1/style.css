@@ -5,6 +5,11 @@ body {
 #title{
   color: rgb(251, 255, 198);
 }
+#form-cv {
+  background-color: rgb(228, 220, 220);
+  width: 50em;
+  border: none;
+}
 
 fieldset {
   border: none;
@@ -17,10 +22,4 @@ fieldset {
 
 .radio {
   display: flex;
-}
-
-#form-cv {
-  background-color: rgb(228, 220, 220);
-  width: 50em;
-  border: none;
 }
