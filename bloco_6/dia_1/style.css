@@ -23,3 +23,7 @@ fieldset {
 .radio {
   display: flex;
 }
+
+textarea {
+  resize: none;
+}

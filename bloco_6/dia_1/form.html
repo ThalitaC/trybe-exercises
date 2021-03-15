@@ -47,7 +47,23 @@
         </div>
       </fieldset>
       <fieldset id="last-job">
-
+        <h2>Preencha os campos a seguir considerando seu último emprego: </h2>
+        <div id="content">
+          <label for="cv-resume">Resumo do currículo: </label>
+          <textarea id="cv-resume" name="cv-resume" maxlength="1000" cols="94" rows="20" required></textarea>
+          </div>
+          <div class="content">
+            <label for="position">Cargo: </label>
+            <input type="text" name="position" id="position" maxlength="40" required>
+          </div>
+          <div class="content">
+            <label for="job-description">Descrição do cargo: </label>
+            <input type="text" name="job-description" id="job-description" maxlength="500" required>
+          </div>
+          <div class="content">
+            <label for="start-date">Data de início: </label>
+            <input type="text" name="start-date" id="start-date" value="" required>
+          </div>
       </fieldset>
     </form>
   </div>
