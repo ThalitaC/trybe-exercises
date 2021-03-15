@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Form CV</title>
+</head>
+<body>
+  <header id="title">
+    <h1>Formulário para cadastro de currículo</h1>
+  </header>
+  <div>
+    <form id="form-cv" action="" method="post">
+      <fieldset>
+        <div class="content">
+          <label for="name">Nome: </label>
+          <input type="text" name="name" id="name" required>
+        </div>
+        <div class="content">
+          <label for="email">E-mail: </label>
+          <input type="text" name="email" id="email" required>
+        </div>
+        <div class="content">
+          <label for="cpf">CPF: </label>
+          <input type="text" name="cpf" id="cpf" required>
+        </div>
+        <div class="content">
+          <label for="adress">Endereço: </label>
+          <input type="text" name="adress" id="adress" required>
+        </div>
+        <div class="content">
+          <label for="city">Cidade: </label>
+          <input type="text" name="city" id="city" required>
+        </div>
+        <div class="content">
+          <label for="state">Estado: </label>
+          <select name="name" id="name" value="" required>
+
+          </select>
+          <div class="radio">
+            <label for="kind">Tipo: </label>
+            <input type="radio" name="kind" id="house" value="house" required><p>Casa</p>
+            <input type="radio" name="kind" id="apartment" value="apartment" required><p>Apartamento</p>
+          </div>
+        </div>
+      </fieldset>
+    </form>
+  </div>
+</body>
+</html>

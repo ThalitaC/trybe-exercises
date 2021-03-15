@@ -1,0 +1,26 @@
+body {
+  background-color: darkslategrey;
+}
+
+#title{
+  color: rgb(251, 255, 198);
+}
+
+fieldset {
+  border: none;
+  background-color: rgb(223, 236, 253);
+}
+
+.content {
+  display: grid;
+}
+
+.radio {
+  display: flex;
+}
+
+#form-cv {
+  background-color: rgb(228, 220, 220);
+  width: 50em;
+  border: none;
+}
